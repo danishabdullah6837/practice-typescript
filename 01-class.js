@@ -14,6 +14,7 @@ console.log(isMarried);
 // null
 let temp = null;
 console.log(temp);
+console.log(typeof temp);
 // undefined
 let lastName; // implicit mean system will assume/judge variable type
 console.log(lastName);
@@ -31,19 +32,43 @@ console.log(typeof firstName); // it will tell typeof of a variable
 // 1 - Arithmetic Operators + - * / %
 let n1 = 10;
 let n2 = 5;
-console.log(n1 + n2);
-console.log(n1 - n2);
-console.log(n1 * n2);
-console.log(n1 / n2);
-console.log(n1 % n2);
-console.log(n1 ** n2); // power or exponential of a number
+console.log(n1 + n2); // 15
+console.log(n1 - n2); // 5
+console.log(n1 * n2); // 50
+console.log(n1 / n2); // 2
+console.log(n1 % n2); // remaider = 0
+console.log(n1 ** n2); // power or exponential of a number // 100000
 // 2 - Comparsion Operators
 let n3 = 5;
-console.log(n3 == 5); // equal
-console.log(n3 === 5); // equal value + type
-console.log(n3 != 5); // not equal
-console.log(n3 >= 5); // greater than or equal to
-console.log(n3 <= 5); // less than or equal to
-console.log(n3 > 5); // greater than
-console.log(n3 < 5); // less than
-// 3 - 
+console.log(n3 == 5); // equal // in this case true
+console.log(n3 === 5); // equal value + type // true
+console.log(n3 != 5); // not equal // false
+console.log(n3 >= 5); // greater than or equal to // true
+console.log(n3 <= 5); // less than or equal to // true
+console.log(n3 > 5); // greater than // false
+console.log(n3 < 5); // less than // false
+// 3 - Logical Operators and &&, or ||, not !
+// and operator && 
+// T T = T
+// T F = F
+// F T = F
+// F F = F
+// or operator || 
+// T T = T
+// T F = T
+// F T = T
+// F F = F
+// not operator ! 
+// T = F
+// F = T
+// conditional statement
+n1 = 16;
+if (n1 > 15) {
+    console.log(firstName);
+}
+else if (n1 == 5) {
+    console.log(lastName);
+}
+else {
+    console.log(age);
+}

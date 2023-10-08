@@ -18,6 +18,7 @@ console.log(isMarried)
 // null
 let temp: null = null;
 console.log(temp);
+console.log(typeof temp) // return object, why???
 
 // undefined
 let lastName; // implicit mean system will assume/judge variable type
@@ -59,7 +60,33 @@ console.log(n3 <= 5); // less than or equal to // true
 console.log(n3 > 5); // greater than // false
 console.log(n3 < 5); // less than // false
 
-// 3 - Logical Operators
+// 3 - Logical Operators and &&, or ||, not !
+
+// and operator && 
+// T T = T
+// T F = F
+// F T = F
+// F F = F
+
+// or operator || 
+// T T = T
+// T F = T
+// F T = T
+// F F = F
+
+// not operator ! 
+// T = F
+// F = T
+
+// conditional statement
+n1 = 16
+if(n1 > 15){
+    console.log(firstName)
+} else if(n1 == 5){
+    console.log(lastName)
+} else{
+    console.log(age);
+}
 
 
 
